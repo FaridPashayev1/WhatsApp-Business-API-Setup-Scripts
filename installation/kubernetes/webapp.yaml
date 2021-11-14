@@ -50,7 +50,7 @@ spec:
       restartPolicy: "Always"
       containers:
       - name: whatsapp-web
-        image: docker.whatsapp.biz/web:v$VERSION
+        image: docker.whatsapp.biz/web:2.33.4
         imagePullPolicy: IfNotPresent
         resources:
           limits:
