@@ -5,11 +5,11 @@
 kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
-  name: media-volume-claim
+  name: media-volume-claim-1
 spec:
   accessModes:
   - ReadWriteMany
-  storageClassName: standard-rwx
+  storageClassName: filestore-test
   resources:
     requests:
-      storage: 10Gi
+      storage: 1Ti

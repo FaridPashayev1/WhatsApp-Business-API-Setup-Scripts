@@ -50,7 +50,7 @@ spec:
       restartPolicy: "Always"
       containers:
       - name: whatsapp-web
-        image: docker.whatsapp.biz/web:2.33.4
+        image: docker.whatsapp.biz/web:v2.33.4
         imagePullPolicy: IfNotPresent
         resources:
           limits:
@@ -102,4 +102,4 @@ spec:
       volumes:
       - name: whatsapp-media
         persistentVolumeClaim:
-          claimName: media-volume-claim
+          claimName: media-volume-claim-1
