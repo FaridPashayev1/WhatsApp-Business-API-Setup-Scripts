@@ -10,20 +10,3 @@ This GitHub repo is not actively monitored. If you need help, please check previ
 ## License
 
 WhatsApp Business API Setup Scripts is [MIT licensed](./LICENSE).
-
-
-
-
-
-
-
-
-# Scripts de configuración de la API de WhatsApp Business(Español)
-
-Este repositorio incluye todos los scripts de configuración que se utilizan para configurar la API empresarial de WhatsApp mediante docker-compose.
-
-Para obtener más detalles relacionados con la API de WhatsApp Business, visite la documentación en: https://developers.facebook.com/docs/whatsapp
-
-## Licencia
-
-Los scripts de configuración de la API de WhatsApp Business tienen [licencia MIT](./LICENSE).
